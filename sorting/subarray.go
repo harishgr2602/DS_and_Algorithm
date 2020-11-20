@@ -21,6 +21,7 @@ func MaxSubArraySum(data []int) int {
 }
 
 func main() {
+	
 	data := []int{1, -2, 3, 4, -4, 6, -14, 8, 2}
 	fmt.Println("Max sub array sum:", MaxSubArraySum(data))
 }
