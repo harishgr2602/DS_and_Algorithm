@@ -5,6 +5,7 @@ import (
 )
 
 func function2() {
+	
 	fmt.Println("fun 2 line 1")
 }
 
