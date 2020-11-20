@@ -5,7 +5,6 @@ import (
 )
 
 func binarySearch(data int, value []int) bool {
-
 	low := 0
 	high := len(value) - 1
 
