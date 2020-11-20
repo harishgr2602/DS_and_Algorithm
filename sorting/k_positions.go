@@ -5,6 +5,7 @@ import (
 )
 
 func RotateArray(data []int, k int) {
+	
 	n := len(data)
 	ReverseArray(data, 0, k-1)
 	ReverseArray(data, k, n-1)
