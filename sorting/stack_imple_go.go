@@ -2,8 +2,7 @@ package main
 
 import (
 	"fmt"
-
-	"github.com/golang-collections/collections/stack"
+        "github.com/golang-collections/collections/stack"
 )
 
 func main() {
