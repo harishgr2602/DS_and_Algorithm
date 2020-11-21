@@ -5,6 +5,7 @@ import (
 )
 
 func main() {
+	
 	m := make(map[string]int)
 	m["Apple"] = 40
 	m["Banana"] = 30
