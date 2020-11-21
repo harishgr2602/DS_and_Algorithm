@@ -10,7 +10,6 @@ func Factorial(i int) int {
 	}
 	return i * Factorial(i-1)
 }
-
 func main() {
 	fmt.Println("Factorial 5 is:", Factorial(5))
 }
