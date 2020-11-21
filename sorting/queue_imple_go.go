@@ -2,8 +2,7 @@ package main
 
 import (
 	"fmt"
-
-	"github.com/golang-collections/collections/queue"
+        "github.com/golang-collections/collections/queue"
 )
 
 func main() {
