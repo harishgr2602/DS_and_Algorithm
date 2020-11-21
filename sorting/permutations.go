@@ -9,6 +9,7 @@ func Permutation(data []int, i int, length int) {
 		fmt.Println(data)
 		return
 	}
+	
 	for j := i; j < length; j++ {
 		swap(data, i, j)
 		Permutation(data, i+1, length)
