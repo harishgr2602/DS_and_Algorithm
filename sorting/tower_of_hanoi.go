@@ -5,7 +5,7 @@ import (
 )
 
 func main() {
-	TowersOfHanoi(3)
+	TowersOfHanoi(4)
 }
 
 func TOHUtil(num int, from string, to string, temp string) {
@@ -19,5 +19,5 @@ func TOHUtil(num int, from string, to string, temp string) {
 
 func TowersOfHanoi(num int) {
 	fmt.Println("The sequence of moves involved in the tower of hanoi are:")
-	TOHUtil(num, "A", "C", "B")
+	TOHUtil(num, "A", "C", "D", "B")
 }
