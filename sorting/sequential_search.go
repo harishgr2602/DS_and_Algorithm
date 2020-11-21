@@ -15,5 +15,6 @@ func SequentialSearch(data []int, value int) bool {
 }
 
 func main() {
+	
 	fmt.Println("Data is:", data)
 }
