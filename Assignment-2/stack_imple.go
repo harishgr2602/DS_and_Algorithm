@@ -38,6 +38,7 @@ func (stack *Stack) Pop() (value interface{}) {
 }
 
 func main() {
+	
 	stack := new(Stack)
 	stack.Push(1)
 	stack.Push("Welcome")
