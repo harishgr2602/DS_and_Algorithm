@@ -32,7 +32,6 @@ func zigzag(n int) []int {
 	}
 	return zz
 }
-
 func main() {
 	num := 5
 	len := 2
