@@ -17,7 +17,6 @@ func dequeue(queue []int) []int {
 }
 
 func main() {
-	
 	var queue []int
 
 	queue = enqueue(queue, 10)
