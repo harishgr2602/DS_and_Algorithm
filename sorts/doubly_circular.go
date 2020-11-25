@@ -1,3 +1,7 @@
+package main
+
+import "fmt"
+
 type doublyCircular struct {
 	head  *Node
 	tail  *Node
