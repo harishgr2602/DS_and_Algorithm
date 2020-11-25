@@ -1,3 +1,8 @@
+package main
+
+import(
+	"fmt"
+)
 
 type CircularLinkedList struct {
 	tail  *Node
