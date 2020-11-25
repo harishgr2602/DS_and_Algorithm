@@ -5,6 +5,7 @@ import (
 )
 
 func Stack() string {
+	stk string
 }
 
 func InfixToPostfix(expn string) string {
