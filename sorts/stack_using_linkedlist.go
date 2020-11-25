@@ -23,6 +23,7 @@ func (s *Stack) IsEmpty() bool {
 }
 
 func (s *Stack) Peek() (int, bool) {
+	
 	if s.IsEmpty() {
 		fmt.Println(" Stack Empty Error")
 		return 0, false
