@@ -19,6 +19,7 @@ func (s *StackInt) Length() int {
 }
 
 func (s *StackInt) Print() {
+	
 	length := len(s.s)
 	for i := 0; i < length; i++ {
 		fmt.Print(s.s[i], "")
