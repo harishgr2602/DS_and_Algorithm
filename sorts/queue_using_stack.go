@@ -1,5 +1,10 @@
 package main
 
+import (
+	"fmt"
+       )
+	
+
 type QueueUsingStack struct {
 	stk1 Stack
 	stk2 Stack
