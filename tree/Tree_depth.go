@@ -23,4 +23,5 @@ func TreeDepth(root *Node) int {
 
 func main() {
 	fmt.Println(temp)
+	TreeDepth(root)
 }
