@@ -1,5 +1,9 @@
 package main
 
+import (
+	"fmt"
+)
+
 const capacity = 100
 
 type Queue struct {
