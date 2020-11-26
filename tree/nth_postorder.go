@@ -21,6 +21,7 @@ func nthPostOrder(node *Node, index int, counter *int) {
 }
 
 func main() {
+	
 	nthPostOrder(node.left)
 	nthPostOrder(node.right)
 	fmt.Println()
