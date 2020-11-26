@@ -21,6 +21,7 @@ func nthPreOrder(node *Node, index int, counter *int) {
 }
 
 func main() {
+	
 	fmt.Println(node.left)
 	fmt.Println(node.right)
 }
