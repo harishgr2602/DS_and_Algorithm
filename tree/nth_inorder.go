@@ -21,6 +21,7 @@ func nthInOrder(node *Node, index int, counter *int) {
 }
 
 func main() {
+	
 	nthInOrder(node.left)
 	nthInOrder(node.right)
 }
